@@ -2,13 +2,9 @@ package it.polito.tdp.metrodeparis.model;
 
 import java.util.List;
 
-import org.jgrapht.Graph;
 import org.jgrapht.Graphs;
-import org.jgrapht.UndirectedGraph;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleWeightedGraph;
-
-import com.javadocmd.simplelatlng.LatLng;
 import com.javadocmd.simplelatlng.LatLngTool;
 import com.javadocmd.simplelatlng.util.LengthUnit;
 
@@ -50,7 +46,6 @@ public class Model {
 		}
 		
 		System.out.println("Grafo creato : numero di vertici "+ graph.vertexSet().size()+ " e numero archi " + graph.edgeSet().size());
-	
 	}
 	
 }

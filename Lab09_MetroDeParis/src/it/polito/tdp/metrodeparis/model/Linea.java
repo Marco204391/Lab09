@@ -71,8 +71,7 @@ public class Linea {
 	
 	@Override
 	public String toString() {
-		return "Linea [idLinea=" + id_linea + ", nome=" + nome + ", velocita=" + velocita + ", intervallo=" + intervallo
-				+ "]";
+		return "Linea --> idLinea=" + id_linea + ", nome=" + nome + ", velocita=" + velocita + ", intervallo=" + intervallo;
 	}
 	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
